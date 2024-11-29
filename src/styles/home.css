@@ -1,0 +1,128 @@
+.hero-part img {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.slogon {
+  font-size: 3rem;
+  width: 100%;
+  position: relative;
+  z-index: 999;
+  top: 13rem;
+  border-radius: 50px;
+  text-align: center;
+  color: #252526;
+}
+.controllIng {
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+  top: 25rem;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  align-content: center !important;
+}
+/* this where i get problem height/  */
+
+.controll-showing {
+  margin-left: -2rem;
+  margin-top: 0rem;
+  height: 68rem;
+}
+/* this where i get problem height/  */
+.hedear-controller {
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  width: 100vw;
+  margin-left: 31px;
+  justify-content: center;
+}
+.middle-header {
+  width: 60%;
+}
+.right-header {
+  display: flex;
+  gap: 1rem;
+}
+.right-header2 {
+  margin-left: 10px;
+}
+.items {
+  display: flex;
+  align-content: center;
+  width: 100vw;
+  justify-content: space-around;
+}
+.filter-items {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  width: 20%;
+  /* height: 100vh; */
+}
+.filter-items div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.show-items {
+  display: flex;
+  width: 70%;
+  /* height: 100vh; */
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space between items */
+  position: relative;
+  top: 0rem;
+  left: 11rem;
+}
+.show-items img {
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+.show-items img:hover {
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #252526;
+  opacity: 0.5;
+}
+.item-solo {
+  margin: 5px 5px;
+  background-color: rgb(8, 8, 11);
+  width: calc(33.33% - 10px);
+  height: 60%;
+  border-radius: 20px;
+  animation: showing 2.5s ease-in-out;
+}
+@keyframes showing {
+  0% {
+    position: relative;
+    top: 5rem;
+    left: 0rem;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    opacity: 100%;
+  }
+}
+.aa {
+  opacity: 0;
+}

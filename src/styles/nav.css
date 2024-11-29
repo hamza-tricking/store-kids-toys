@@ -1,0 +1,70 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  z-index: 99999;
+
+  height: 90px;
+  background: rgba(0, 0, 0, 0.5);
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  height: 80px;
+  width: 100%;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  top: 0.5rem;
+  left: 1rem;
+  cursor: pointer;
+}
+.links li {
+  list-style-type: none;
+}
+.links a {
+  color: white;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+.links a:hover {
+  color: rgb(255, 146, 5);
+
+  text-decoration: none;
+}
+.links ul {
+  display: flex;
+  gap: 5rem;
+}
+.links {
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.accounts ul {
+  display: flex;
+
+  gap: 1rem;
+}
+.accounts li {
+  list-style-type: none;
+}
+.accounts {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.accounts path {
+  fill: aliceblue;
+}
+.accounts path:hover {
+  fill: rgb(255, 146, 5);
+}
+
+.links path {
+  fill: white;
+}
+.links path:hover {
+  fill: rgb(255, 146, 5);
+}
